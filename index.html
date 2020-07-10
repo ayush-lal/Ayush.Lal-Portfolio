@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127131952-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-127131952-1');
+  </script>
+
+  <!--Remove-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayush Lal - Front End Developer</title>
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico">
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,700" rel="stylesheet">
+
+  <!-- INTERNAL STYLING -->
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/bulma.min.css">
+
+  <!-- Buefy JavaScript -->
+  <script src="https://unpkg.com/buefy@0.6.6/lib/index.js"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!-- Creates a fade-in effect on page reload via div.preloader -->
+  <script>
+    $(window).load(function () {
+      $('.preloader').delay(400).fadeOut('slow');
+    })
+  </script>
+</head>
+
+<body>
+  <div class="preloader"></div>
+
+  <!-- NAVBAR + HERO/LANDING PAGE SECTION
+============================================================= -->
+  <section class="hero bg">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+
+          <a class="navbar-item" href="index.html">
+            <img class="ayushlogo" src="assets/images/ayushlogo.png" alt="Ayush Lal textlogo">
+          </a>
+
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="index.html" class="navbar-item">Home</a>
+            <a href="#contactme" class="scrollLink navbar-item">contact</a>
+            <a href="#portfolio" class="scrollLink navbar-item">projects</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container hero-text-block">
+      <div class="nav-text-block has-text-centered">
+        <h1 class="title-hero">
+          LET'S CREATE SOMETHING AWESOME TOGETHER.
+        </h1>
+        <br>
+        <div id="button-main">
+          <a href="#contactme" class="button2">
+            <span>Contact Me!</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="scroll-down">
+      <a href="#aboutme" class="scrollLink">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ABOUT ME SECTION
+============================================================= -->
+  <section id="aboutme" class="section sec-bg-col">
+    <div class="container has-text-centered">
+      <h1 class="title-main">About Me</h1>
+      <br>
+      <p class="para-main">
+        Hello world! My name is Ayush Lal and I am a Self-Taught Front End Developer based in Gold Coast, Australia
+        with a passion for writing code and building things from the ground up.
+        <a class="link-style" href="#contactme">Contact</a> me to find out what I can do for you.
+      </p>
+
+      <br>
+      <br>
+
+      <div class="columns is-mobile aboutme-text">
+        <div class="column icons">
+          <i class="fas fa-coffee"></i>
+          <br> Coffee
+        </div>
+
+        <div class="column icons">
+          <i class="fas fa-code"></i>
+          <br> Code
+        </div>
+
+        <div class="column icons">
+          <i class="fas fa-desktop"></i>
+          <br> Technology
+        </div>
+
+        <div class="column icons">
+          <i class="fas fa-dumbbell"></i>
+          <br> Gym
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MY SERVICES SECTION
+============================================================= -->
+  <section id="myservices" class="section myservice">
+    <div class="container has-text-centered">
+      <h1 class="title-main">How I Can Help You?</h1> <br>
+
+      <div class="columns services">
+        <div class="column">
+          <img class="helpimg" src="assets/images/services/design.svg">
+          <h2 class="title3-main"><span class="title3-span">DESIGN WHAT YOU WANT</span></h2>
+          <p class="para-main">I design awesome website interfaces that deliver a message to captivate your target
+            audience. A good, readable design attracts more views and engagement.</p>
+        </div>
+
+        <div class="column">
+          <img src="assets/images/services/coding.svg">
+          <h2 class="title3-main"><span class="title3-span">DEVELOP WHAT YOU NEED</span></h2>
+          <p class="para-main">I develop websites using the newest technology whilst also making your website work
+            seamlessly across any device.</p>
+        </div>
+      </div>
+
+      <br>
+    </div>
+  </section>
+
+  <!-- DEVELOPMENT PROCESS SECTION
+============================================================= -->
+  <section id="dev-process-overview" class="section">
+    <div class="container has-text-centered">
+      <h1 class="title-main">Development Process Overview</h1>
+      <br>
+
+      <h2 class="subtitle-main">Phase One</h2>
+
+      <div class="columns is-mobile">
+        <div class="column">
+          <img class="devprocessimg" src="assets/images/services/devprocess/identify2.svg">
+          <br>
+          <h2 class="dev-title">IDENTIFY</h2> <br>
+          <p class="para-main-dev">Discuss website requirements.</p>
+        </div>
+
+        <div class="column">
+          <img class="devprocessimg" src="assets/images/services/devprocess/present2.svg">
+          <br>
+          <h2 class="dev-title">PRESENT</h2> <br>
+          <p class="para-main-dev">Design elements are explained and presented for feedback.</p>
+        </div>
+
+        <div class="column">
+          <img class="devprocessimg" src="assets/images/services/devprocess/refine2.svg">
+          <br>
+          <h2 class="dev-title">REFINE</h2> <br>
+          <p class="para-main-dev">Feedback applied and designs refined.</p>
+        </div>
+      </div>
+
+      <br>
+      <hr class="break">
+      <br>
+
+      <h2 class="subtitle-main">Phase Two</h2>
+      <div class="columns is-mobile">
+
+        <div class="column">
+          <img class="devprocessimg" src="assets/images/services/devprocess/develop2.svg">
+          <br>
+          <h2 class="dev-title">DEVELOP</h2> <br>
+          <p class="para-main-dev">Coded into a responsive, functioning website.</p>
+        </div>
+
+        <div class="column">
+          <img class="devprocessimg" src="assets/images/services/devprocess/optimise2.svg">
+          <br>
+          <h2 class="dev-title">OPTIMISE</h2> <br>
+          <p class="para-main-dev">Search Engine Optimisation and Meta Data implemented.</p>
+        </div>
+
+        <div class="column">
+          <img class="devprocessimg" src="assets/images/services/devprocess/deliver2.svg">
+          <br>
+          <h2 class="dev-title">DELIVER</h2> <br>
+          <p class="para-main-dev">Website launched, files supplied and archived.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS/CARDS SECTION
+============================================================= -->
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <div class="has-text-centered">
+        <div class="projects-title">
+          <h1 class="title-main">My Projects</h1>
+        </div>
+
+        <!-- Project Row 1 -->
+        <div class="columns">
+          <!-- Project 1 -->
+          <div class="column is-4 card-view">
+            <div class="card card-size card-shadow">
+              <div class="card-image">
+                <figure class="image is-4by3 img-overlay">
+                  <img src="assets/images/portfolio_img/axonautomotive.jpg" alt="Axon Automotive">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>Axon Automotive</h2>
+                  <p>
+                    Axon Automotive is a family owned business that provides automotive services at an affordable
+                    price. This was my first web development project built using HTML, CSS, JS and PHP that inspired me
+                    to continue on this journey.
+                  </p>
+                </div><br>
+                <div class="button-control">
+                  <a href="https://github.com/ayush-lal/Automotive-Website-Template" target="_blank"
+                    rel="noopener noreferrer">
+                    <button class="button is-outlined github-projects-button">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Source Code</span>
+                    </button>
+                  </a>
+                  <a href="https://ayush-lal.github.io/Automotive-Website-Template/index.html" target="_blank"
+                    rel="noopener noreferrer">
+                    <button class="button is-danger is-outlined live-projects-button">
+                      <span class="icon">
+                        <i class="fas fa-location-arrow"></i>
+                      </span>
+                      <span>View Live</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="column is-4 card-view">
+            <div class="card card-size card-shadow">
+              <div class="card-image">
+                <figure class="image is-4by3 img-overlay">
+                  <img src="assets/images/portfolio_img/fitzyfitness.jpg" alt="Fitzy Fitness">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>Fitzy Fitness</h2>
+                  <p>Shaun Fitzsimmons is a Personal Trainer Based in Gold Coast, Australia. Apart from being a seasonal
+                    Bodybuilder,
+                    Shaun is training his clients, providing nutrition/training advice and creating programs.
+                  </p>
+                  <div class="button-control">
+                    <a href="https://github.com/ayush-lal/PT-Website-Template" target="_blank"
+                      rel="noopener noreferrer">
+                      <button class="button is-outlined github-projects-button">
+                        <span class="icon">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>Source Code</span>
+                      </button>
+                    </a>
+                    <a href="https://ayush-lal.github.io/PT-Website-Template/index.html" target="_blank"
+                      rel="noopener noreferrer">
+                      <button class="button is-danger is-outlined live-projects-button">
+                        <span class="icon">
+                          <i class="fas fa-location-arrow"></i>
+                        </span>
+                        <span>View Live</span>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="column is-4 card-view">
+            <div class="card card-size card-shadow">
+              <div class="card-image">
+                <figure class="image is-4by3 img-overlay">
+                  <img src="assets/images/portfolio_img/gckc.png" alt="Gold Coast Karate Championships">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>GC KC</h2>
+                  <p>
+                    Gold Coast Karate Championships (GCKC) is a Karate Tournament that is held in Gold Coast, Australia
+                    twice a year and is geared towards developing confidence and resilience in all participants.
+                  </p>
+                  <div class="button-control">
+                    <a href="https://github.com/ayush-lal/Karate-Website-Template" target="_blank"
+                      rel="noopener noreferrer">
+                      <button class="button is-outlined github-projects-button">
+                        <span class="icon">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>Source Code</span>
+                      </button>
+                    </a>
+                    <a href="https://ayush-lal.github.io/Karate-Website-Template" target="_blank"
+                      rel="noopener noreferrer">
+                      <button class="button is-danger is-outlined live-projects-button">
+                        <span class="icon">
+                          <i class="fas fa-location-arrow"></i>
+                        </span>
+                        <span>View Live</span>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Row 2 -->
+        <!-- <div class="columns"> -->
+        <!-- Project 4 -->
+        <!-- <div class="column is-4 card-view">
+            <div class="card card-size card-shadow">
+              <div class="card-image">
+                <figure class="image is-4by3 img-overlay">
+                  <img src="assets/images/portfolio_img/weight_tracker.jpg" alt="Axon Automotive">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>Weight Tracker</h2>
+                  <p>
+                    For the longest time I have been tracking my weight in an Excel spreadsheet which was the main
+                    motivator for this project. This is my first full stack web application built using HTML, CSS, JS,
+                    PHP & SQL.
+                  </p>
+                </div>
+                <div class="button-control">
+                  <a href="https://github.com/ayush-lal/Weight-Tracker" target="_blank" rel="noopener noreferrer">
+                    <button class="button is-outlined github-projects-button">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Source Code</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        <!-- Project 5 -->
+        <!-- <div class="column is-4 card-view">
+            <div class="card card-size card-shadow">
+              <div class="card-image">
+                <figure class="image is-4by3 img-overlay">
+                  <img src="assets/images/portfolio_img/portfolio.png" alt="Axon Automotive">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>Portfolio Website</h2>
+                  <p>
+                    My portfolio website that you are viewing right now where you can learn more about me and the
+                    projects that i've made so far! Technologies used in this project; HTML, CSS, JS & PHP.
+                  </p>
+                </div>
+                <div class="button-control">
+                  <a href="https://github.com/ayush-lal/AyushLal-Portfolio" target="_blank" rel="noopener noreferrer">
+                    <button class="button is-outlined github-projects-button">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Source Code</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        <!-- Project 6 -->
+        <!-- <div class="column is-4 card-view">
+            <div class="card card-size card-shadow">
+              <div class="card-image">
+                <figure class="image is-4by3 img-overlay">
+                  <img src="assets/images/portfolio_img/axonautomotive.jpg" alt="Axon Automotive">
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h2>Landing Page</h2>
+                  <p>
+
+                  </p>
+                </div>
+                <div class="button-control">
+                  <a href="https://github.com/ayush-lal" target="_blank" rel="noopener noreferrer">
+                    <button class="button is-outlined github-projects-button">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Source Code</span>
+                    </button>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <button class="button is-danger is-outlined live-projects-button">
+                      <span class="icon">
+                        <i class="fas fa-location-arrow"></i>
+                      </span>
+                      <span>View Live</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+  </section>
+
+  <!-- CONTACT FORM SECTION
+============================================================= -->
+  <section id="contactme" class="section">
+    <div class="container-footer contact-form">
+      <div class="has-text-centered">
+        <h1 class="title-main">Contact Me Today!</h1>
+      </div>
+
+      <div id="form-messages" class="form-submit-message column is-half input-size"></div>
+      <form id="ajax-contact" method="post" action="php/mailer.php">
+        <div class="field column is-half input-size">
+          <!--  <label for="name">Name:</label> -->
+          <input class="input" type="text" id="name" placeholder="Full Name" name="name" required>
+        </div>
+
+        <div class="field column is-half input-size">
+          <!--  <label for="email">Email:</label> -->
+          <input class="input" type="email" id="email" placeholder="Email Address" name="email" required>
+        </div>
+
+        <div class="field inputarea column is-half input-size">
+          <!--  <label for="message">Message:</label> -->
+          <textarea class="textarea" id="message" placeholder="Message" name="message" required></textarea>
+        </div>
+
+        <div class="field column is-half input-size">
+          <button class="is-success button-input" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION
+============================================================= -->
+  <footer id="footer" class="footer">
+    <div class="content has-text-centered">
+      <h3>Lets Build Something Amazing Together.</h3>
+      <div class="footer-social">
+        <a href="https://www.freecodecamp.org/fccf2e250ea-e52d-41fd-9b64-f4aa3933e7c0" target="_blank">
+          <i class="fab fa-free-code-camp"></i>
+        </a>
+        <a href="https://www.instagram.com/ayush.codes/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/ayush-lal" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/13055053/ayush-lal" target="_blank">
+          <i class="fab fa-stack-overflow"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ayushlal98" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="copyright">
+        <p>
+          &#169 2020. Developed by Ayush Lal
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Navbar Burger Animation/Functionality -->
+  <script type="text/javascript">
+      (function () {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#' + burger.dataset.target);
+        burger.addEventListener('click', function () {
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+  </script>
+
+  <!-- Scroll animation to #contactme & #portfolio -->
+  <script>
+    $('a[href*="#"]').on('click', function (e) {
+      e.preventDefault()
+
+      $('html, body').animate(
+        {
+          scrollTop: $($(this).attr('href')).offset().top,
+        },
+        500,
+        'linear'
+      )
+    })
+  </script>
+
+  <!-- Loading JS Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- AJAX Contact Form Scripts -->
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

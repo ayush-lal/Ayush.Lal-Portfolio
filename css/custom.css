@@ -1,0 +1,980 @@
+/* Global CSS
+-------------------------------*/
+.hr-break {
+  text-align: right;
+  margin: 0 auto;
+  margin-bottom: -50px;
+  width: 75%;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 600;
+}
+
+.is-active {
+  color: red !important;
+}
+
+.sec-bg-col {
+  background-color: #ffffff;
+}
+
+.aboutme-title-hero {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-top: -25px;
+  font-family: "yellowtail";
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.aboutme-subtitle {
+  margin-top: -100px;
+}
+
+.link-style {
+  color: red !important;
+}
+
+.link-style:hover {
+  opacity: 0.4;
+}
+
+.is-shady {
+  animation: flyintoright 0.4s backwards;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.is-shady:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.container-portfolio {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-hero {
+  margin-top: -125px;
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: "muli";
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.title-main {
+  font-size: 2.5rem;
+  padding-bottom: 15px;
+  color: #363636;
+  font-family: "muli";
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.para-main {
+  font-size: 1.2rem;
+  font-family: "muli";
+  font-weight: 200;
+  color: #000;
+}
+
+.subtitle-main {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  color: #5a5a5a;
+  font-family: "muli";
+  font-weight: 300;
+}
+
+.subtitle-main span {
+  color: yellow;
+}
+
+.title3-main {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  color: #5a5a5a;
+  font-family: "muli";
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+/* .title3-span {
+  border-bottom: 2px solid red;
+  padding-bottom: 2px;
+} */
+
+/* Change navbar burger menu styling 
+==============================================================*/
+.navbar-menu {
+  padding: 0.5rem 0;
+  background-color: transparent !important;
+}
+
+.navbar-item:hover {
+  color: #fff !important;
+  background-color: transparent !important;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  /* ...and now for the proper property */
+  transition: 0.3s;
+}
+
+.navbar-menu a {
+  color: #363636 !important;
+  font-family: "muli";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #929292 !important;
+}
+
+@media only screen and (max-width: 1086px) {
+  .navbar-menu {
+    text-align: center;
+    margin-top: -40px;
+    font-size: 20px;
+  }
+}
+
+.navbar-burger {
+  padding-top: 165px !important;
+  color: #ffffff;
+}
+
+/*
+.navbar-menu a:hover {
+    text-decoration: underline;
+}
+*/
+
+/* HERO STYLING
+=============================================================== */
+
+.ayushlogo {
+  min-height: 175px !important;
+  max-width: 250px !important;
+  padding-left: 20px;
+  margin-top: -10px;
+}
+
+.bg {
+  background-image: url("../assets/images/hero_pattern.svg");
+  background-repeat: repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.hero-text-block {
+  /* padding-top: 300px; */
+  /* position: absolute;
+  margin-bottom: 22% !important; */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  bottom: 40%;
+}
+
+@media screen and (min-width: ) {
+}
+
+#button-main .button-one {
+  margin-right: 50px;
+}
+
+.button-one {
+  min-width: 125px !important;
+}
+
+.button-two {
+  min-width: 125px !important;
+}
+
+.button-one:hover {
+  opacity: 0.75;
+}
+
+.button-two:hover {
+  opacity: 0.75;
+}
+
+.hero-contact-button {
+  background-color: Transparent !important;
+
+  color: #ffffff !important;
+}
+
+.hero-contact-button:hover {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+
+a.button2 {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.05em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+}
+a.button2:hover {
+  color: #1a1a1a;
+  background-color: #fff;
+  border-color: #fff;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+@media all and (max-width: 30em) {
+   a.button2 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
+
+/* ABOUT ME STYLING
+=============================================================== */
+.aboutme-text .icons {
+  font-size: 20px;
+  font-family: "muli";
+  font-weight: 200;
+}
+
+.services img {
+  height: 75px;
+  width: auto;
+}
+
+.service h2 {
+  color: red !important;
+}
+
+.devprocessimg {
+  height: 75px;
+  width: auto;
+}
+
+.para-main-dev {
+  font-size: 1rem;
+  font-family: "muli";
+  font-weight: 200;
+  color: #000;
+}
+
+.dev-title {
+  font-size: 1rem;
+  padding-top: 10px;
+  margin-bottom: -20px;
+  color: #484848;
+  font-family: "muli";
+  font-weight: 700;
+}
+
+.myservice {
+  background-color: #fbfbfb;
+}
+
+#dev-process-overview {
+  background-color: #ffffff;
+}
+
+/* FOOTER STYLING */
+.footer {
+  background-color: #111111 !important;
+}
+
+#footer h1 {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "muli";
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#footer h3 {
+  font-family: "muli";
+  font-weight: 200;
+  margin-bottom: -20px;
+  color: #9a9a9a;
+  letter-spacing: 1px;
+}
+
+.f-links {
+  margin-bottom: -30px;
+}
+
+.footer-links {
+  color: #fff;
+  padding: 20px;
+  letter-spacing: 3px;
+}
+
+.footer-social {
+  padding-top: 45px;
+  margin-bottom: 5px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.footer-social a:hover {
+  color: #444444;
+
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  /* ...and now for the proper property */
+  transition: 0.3s;
+}
+
+.copyright p {
+  padding-top: 20px;
+  font-family: "muli";
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #5a5a5a;
+  margin-bottom: -80px;
+  padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .copyright p {
+    font-size: 15px;
+  }
+}
+
+.fa-heart {
+  color: red;
+}
+
+#contactme {
+  background-color: #1a1a1a;
+}
+
+#contactme .input {
+  background-color: #eee;
+  color: #000;
+}
+
+#contactme textarea {
+  background-color: #eee;
+  color: #000;
+}
+
+#contactme h1 {
+  color: #fff;
+}
+
+.portfolio {
+  background-color: #fbfbfb !important;
+}
+
+#cardbg {
+  background-image: url(/assets/images/portfolioimg/axonautomotive.jpg);
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#cardbg2 {
+  background-image: url(/assets/images/portfolioimg/axonautomotive.jpg);
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.card-bg h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card-bg {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  min-height: 650px !important;
+  min-width: 00px !important;
+}
+
+.card-bg p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.content-card {
+  background-image: url(/assets/images/portfolioimg/axonautomotive.jpg);
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.content-card h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content-card p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.card-button {
+  min-width: 150px !important;
+  padding-top: ;
+}
+
+.gckc-card a {
+}
+
+/*
+TODO .test-card-view is used to fix how the portfolio section works.  
+*/
+.card-size {
+  min-height: 675px !important;
+}
+
+@media only screen and (max-width: ) {
+}
+
+.button-control {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 880px) {
+  .button-control {
+    padding-bottom: 10px;
+  }
+
+  /* .card-content {
+    height: 300px !important;
+  } */
+}
+
+@media only screen and (max-width: 600px) {
+  .button-control {
+    padding-bottom: 50px;
+  }
+}
+
+.test-link a {
+  font-family: "muli";
+}
+
+.projects-link {
+  color: red;
+}
+
+.projects-link .arrow-hide:hover {
+  opacity: 0 !important;
+}
+
+.card-image > .fa {
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #209cee;
+}
+.card-content .content {
+  font-size: 14px;
+  margin: 1rem 1rem;
+}
+.card-content .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.portfolio-button {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.card-content .content h2 {
+  color: #1a1a1a;
+  font-family: "muli";
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-content p {
+  font-family: "muli";
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #000 !important;
+}
+
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+}
+
+.img-overlay {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+}
+
+/* new contact form styling */
+
+#form-messages {
+  text-align: center !important;
+}
+
+.field {
+}
+
+#contactme .input {
+  height: 40px;
+}
+
+.input-size {
+  margin: auto;
+}
+
+@media only screen and (min-width: 1350px) {
+  .input-size {
+    width: 650px !important;
+  }
+}
+
+label {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: #999999;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em 0.5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+}
+
+.button-input {
+  height: 40px;
+}
+
+.field {
+  padding-bottom: 0px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 0.5em 0.5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+}
+
+button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8em;
+  background-color: #23d160;
+  border-bottom: 1px solid #498b50;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover,
+button:focus {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 1;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+}
+
+.success {
+  padding: 1em;
+  /*margin-bottom: 0.75rem;*/
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: auto !important;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* MEDIA QUERIES 
+============================================================= */
+@media only screen and (max-width: 600px) {
+  #contactme h1 {
+    font-size: 2rem;
+  }
+
+  .hero h2 {
+    font-size: 1.25rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #footer h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+}
+
+/*CSS Button for View Projects*/
+.example_a {
+  color: #fff !important;
+  text-transform: ;
+  text-decoration: none;
+  background: #ff3860;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+  background: #1a1a1a;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.para-projects {
+  font-size: 1.2rem;
+  font-family: "muli";
+  font-weight: 200;
+  color: #000;
+  text-decoration: ;
+}
+
+.breadcrumb-active {
+  color: #ff3860 !important;
+}
+
+.crumbs {
+  padding-top: 20px;
+}
+
+.crumbs-center {
+  background-color: #f8f8f8;
+}
+
+@media only screen and (max-width: 1087px) {
+  .crumbs {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .crumbs {
+    display: inline-block;
+  }
+
+  .crumbs-center {
+    text-align: center;
+  }
+}
+
+/*Changes styling of Breadcrumb text*/
+.crumb-adjust {
+  font-family: "muli";
+}
+
+.crumb-hover:hover {
+  color: #ff3860 !important;
+  text-decoration: underline;
+}
+
+/* Project section begins */
+.projects {
+  margin-top: 0;
+  background-color: #eee;
+}
+
+.projects .projects-collage {
+  /* max-width: 96rem;    Enable this if you want some margin down the sides of the projects. */
+  margin: 0 auto;
+}
+
+.projects .projects-collage::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.projects .projects-collage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-overlay {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgb(60, 60, 77) !important;
+  opacity: 0 !important;
+  -webkit-transition: all 0.3s ease-in !important;
+  transition: all 0.3s ease-in !important;
+}
+
+a.project-item {
+  position: relative;
+  display: block;
+  line-height: 0;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 769px) {
+  a.project-item {
+    width: 50%;
+    float: left;
+  }
+}
+
+a.project-item:hover .project-overlay {
+  opacity: 0.7 !important;
+}
+
+a.project-item:hover .project-text {
+  top: 50%;
+  opacity: 1;
+}
+
+a.project-item:hover .project-text h2:after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@media (max-width: 768px) {
+  a.project-item .project-overlay {
+    opacity: 0.7;
+  }
+
+  a.project-item .project-text {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+.project-text {
+  position: absolute;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 1;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  font-weight: 300;
+  text-align: center;
+  color: #fafafa;
+}
+
+.project-text h2 {
+  position: relative;
+  font-size: 2rem;
+  padding-bottom: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+.project-text p {
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+img {
+  height: 375px;
+  width: 100%;
+}
+
+/* Project style section ends */
+
+.test-container {
+  height: 400px !important;
+  width: 300px !important;
+  object-fit: fill !important;
+}
+
+.github-projects-button {
+  font-family: "muli" !important;
+  width: 150px;
+  margin: 5px;
+  border-color: #1a1a1a !important;
+  color: #1a1a1a !important;
+}
+
+.live-projects-button {
+  font-family: "muli" !important;
+  width: 150px;
+  margin: 5px;
+  border-color: #ff3860 !important;
+  color: #ff3860 !important;
+}
+
+.github-projects-button:hover {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.live-projects-button:hover {
+  background-color: #ff3860 !important;
+  color: #ffffff !important;
+  -o-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.img-contain-test {
+  height: 400px !important;
+  width: 300px !important;
+}
+
+.card-shadow {
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07) !important;
+}
+
+.projects-title {
+  padding-bottom: 20px;
+}
+
+/* HERO SCROLL DOWN ARROW
+============================================================= */
+.scroll-down {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding-bottom: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-down span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.scroll-down span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+.scroll-down span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
