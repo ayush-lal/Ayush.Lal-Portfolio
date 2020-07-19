@@ -162,6 +162,13 @@
 .navbar-burger {
   padding-top: 165px !important;
   color: #ffffff;
+  margin-right: 25px;
+  height: 4rem !important;
+}
+
+.navbar-burger span {
+  height: 2px !important;
+  width: 18px !important;
 }
 
 /*
@@ -197,7 +204,20 @@
   bottom: 40%;
 }
 
-@media screen and (min-width: ) {
+@media only screen and (max-height: 700px) {
+  .hero-text-block {
+    position: relative;
+  }
+
+  .nav-text-block {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .hero-text-block {
+    padding-top: 575px !important;
+  }
 }
 
 #button-main .button-one {
@@ -348,6 +368,18 @@ a.button2:hover {
   color: #fff;
   font-size: 40px;
   padding: 15px;
+}
+
+@media only screen and (max-width: 417px) {
+  .footer-social a {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer-social a {
+    font-size: 30px;
+  }
 }
 
 .footer-social a:hover {
@@ -513,6 +545,24 @@ TODO .test-card-view is used to fix how the portfolio section works.
 @media only screen and (max-width: 600px) {
   .button-control {
     padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card-size {
+    min-height: 600px !important;
+  }
+
+  .button-control {
+    padding-bottom: 25px;
+  }
+
+  .github-projects-button {
+    font-size: 15px !important;
+  }
+
+  .live-projects-button {
+    font-size: 15px !important;
   }
 }
 
